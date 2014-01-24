@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Sniglet Webfont for Headlines */
+@import url(http://fonts.googleapis.com/css?family=Sniglet);
+/* font-family: 'Sniglet', cursive; */
+
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+/* font-family: 'Arvo', serif; */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/* font-family: 'Open Sans', sans-serif; */
+
+body {
+	background:#72D0F5;}
+
+h1 {
+	font-family: 'Sniglet', cursive;
+	font-size:2.5em;
+	}
+	
+h2 {
+	font-family: 'Arvo', serif;
+	font-size:1.8em;
+	color:#3888C2;
+	line-height:2;
+	}
+
+h3 {
+	font-family: 'Arvo', serif;
+	font-size:1.8em;
+	color:white;
+	line-height:2;
+	}
+	
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size:1em;
+	line-height:2;}
+	
+i {
+	font-size:3em;
+	color:#3888C2;
+	}
+
+i:hover {
+	color:#72D0F5;}
+
+header {
+	min-height:400px;
+	background:url(../img/kk-bg.jpg) fixed center no-repeat;
+	background-size:cover;
+	position:relative;
+	}
+
+header p {
+	padding-top:40px;
+	}
+	
+.content-section {
+	background:#FFF;
+	padding-top:25px;
+	}
+	
+footer {
+	min-height:300px;
+	padding-top:20px;
+	background:#F26D6D;
+	}
+	
+footer p {
+	color:white;}
+	
+a {
+	color:white;
+	}
+	
+
+
+
+
